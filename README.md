@@ -8,11 +8,17 @@ This repository contains a deployable Streamlit web application for predicting d
 - `Training.csv` - Dataset used for training the model
 - `requirements.txt` - Python dependencies
 
+## Live Demo
+
+Open the live deployed app here:
+
+https://2ctrwclsxkewkbh5yjwkhf.streamlit.app/
+
 ## Run locally
 
-```bash
+```powershell
 pip install -r requirements.txt
-streamlit run app.py
+py -m streamlit run app.py
 ```
 
 ## Deploy to Streamlit Community Cloud
